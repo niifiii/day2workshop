@@ -15,6 +15,11 @@ export class CartComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  clog(evt): void {
+    console.log(this.scList);
+    console.log('hello')
+  }
+
 
 
 
